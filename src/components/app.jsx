@@ -9,11 +9,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="left-scene">
           <FlatList />
         </div>
 
-        <div>
+        <div className="right-scene">
 
         </div>
       </div>
