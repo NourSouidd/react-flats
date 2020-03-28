@@ -15,11 +15,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="left-scene">
+        <div className="flat-list">
           <FlatList flats={this.state.flats} />
         </div>
 
-        <div className="right-scene">
+        <div className="map-container">
 
         </div>
       </div>
