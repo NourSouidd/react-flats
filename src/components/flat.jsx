@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-class Flat extends Component {
-  render() {
-    return (
-    );
-  }
-}
+const Flat = (props) => {
+  return (
+    <div className="flat">
+      <h1>{props.name}</h1>
+    </div>
+  );
+};
 
 
 export default Flat;
