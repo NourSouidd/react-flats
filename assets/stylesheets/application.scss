@@ -18,7 +18,7 @@ body {
 }
 
 .map-container {
-  height: 100vh;
+  height: 250vh;
   width: 40%;
   position: sticky !important;
   top: 0 !important;
@@ -38,8 +38,6 @@ body {
 }
 
 .marker {
-  height: 20px;
-  width: 20px;
-  background-color: red;
-  border-radius: 50%;
+  color: #FA0000;
+  font-size: 20px;
 }
